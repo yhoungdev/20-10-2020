@@ -1,0 +1,337 @@
+
+.header {
+    background-image: url("../img/protest.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.row h2 {
+    margin-top: 2em;
+    color: rgb(87, 86, 86);
+    font-family: inter;
+}
+.row {
+    padding-top: 2em;
+    margin-bottom: 2em;
+    ul {
+        list-style-type: none;
+        font-family: 'inter';
+        font-weight: bold;
+        display: flex;
+        justify-content: space-evenly;
+        color: grey;
+
+        li {
+            
+        }
+    }
+}
+
+.header {
+    .inner {
+        background-color: rgba(0, 0, 0, 0.924);
+        height: 100vh;
+
+        span h2 {
+            color: var(--dark);
+            font-family: 'inter','sans-serif';
+            font-weight: 700;
+
+        }
+
+        .hero-main {
+            display: flex;
+            
+            align-items: center;
+            .info {
+               
+                word-wrap:break-word;
+                padding-top: 7em;
+            
+                width: 55em;
+                p {
+                    color: white;
+                    font-size: 3em;
+                    font-family: 'poppins','sans-serif';
+                    font-weight: 500px;
+                    
+
+
+
+                }
+                h1 {
+                    color: var(--light);
+                    font-size: 7.5em;
+                    font-family: 'inter', 'sans-serif';
+                    font-weight: 900;
+    
+                }
+            }
+
+            //the image
+            .hero-img {
+                
+                overflow: hidden;
+               
+                 img {
+                    position: absolute;
+                    width: 39em;
+                    height: 35em;
+                    
+                    
+                    right:0;
+                    bottom: 0;
+                    
+                 }
+            }
+
+
+        }
+    }
+}
+
+
+//tribute 
+
+.tribute {
+    overflow: hidden;
+    h3 {
+        color: var(--dark);
+        font-family: 'poppins','san-serif';
+        font-size: 3em;
+    }
+     .tears {
+         display: flex;
+         align-items: center;
+        
+     }
+     img {
+         width: 32em;
+     }
+     .rant {
+         font-family: 'poppins';
+         padding: 2em 5em;
+         font-size: 2.2em;
+         
+     }
+
+     //in respect 
+     
+
+
+
+}
+
+
+.respect {
+    h2 {
+        font-family: inter;
+        text-transform: uppercase;
+        font-weight: 900;
+        color:var(--dark)
+    }
+}
+
+
+//respect 
+.respect {
+    .gallery {
+        padding-top: 2em;
+        display: flex;
+        justify-content:space-between !important;
+        flex-wrap: wrap;
+    }
+    img {
+        width: 30em;
+        margin-right: 0em;
+    }
+    .card {
+       
+    }
+    .img {
+        width: 369px;
+        height: 371px;
+        
+    }
+}
+
+
+//thoughts 
+.thoughts {
+    display: flex;
+    
+
+    h3 {
+        color: black;
+        font-family: 'inter';
+        margin-bottom: 1em;
+    }
+
+    p{
+        font-family: 'poppins';
+        font-size: 1.5em;
+        color: rgb(26, 26, 26);
+    }
+}
+
+
+//footer {
+    .footer {
+        margin-top: 2em;
+        footer {
+
+        }
+        .end {
+            h2 {
+                color: var(--dark);
+                font-family: 'inter','sans-serif';
+                font-weight: 900;
+            }
+        }
+    }
+//for small screens 
+@media screen and (max-width:670px) {
+    .tributee {
+        font-size: 2em !important;
+        font-family: inter;
+    }
+    .row h2 {
+        margin-top: 2em;
+        color: rgb(87, 86, 86);
+        font-family: inter;
+        font-size: 1em;
+    }
+    .tribute {
+        
+        .tears {
+            flex-direction: column;
+        }
+
+        .rant {
+            font-size: 17px;
+            padding: 1em 1em;
+        }
+    }
+   
+
+    //other 
+    .hero-img {
+        img {
+            display: none;
+
+        }
+
+
+    }
+
+  .hero-main {
+      .info {
+         
+
+      }
+
+      h1 {
+        margin-top: 2em;
+        font-size: 3em !important;
+        margin-bottom: 0.5em;
+    }
+
+    p {
+        font-size: 1.5em !important;
+    }
+
+  }
+
+
+  .tribute {
+      .tears {
+
+      }
+      img {
+          width: 20em;
+      }
+  }
+  .end h2 {
+      font-size: 1.6em;
+  }
+  //gallery 
+  .gallery {
+    
+    flex-direction: column;
+
+      img {
+          width: 100%;
+          margin-top: 0.5em;
+      }
+  }
+    
+
+  //thoughs
+  .thoughts {
+      flex-direction: column;
+
+      h3 {
+          font-size: 1.5em;
+      }
+
+      p{
+          font-size: 18px;
+          
+      }
+  }
+}
+
+
+
+// for tablet 
+
+@media screen and (min-width:670px) and (max-width: 1200px) {
+    
+}
+
+
+@media screen and (min-width:1400px) {
+    // .hero-img {
+                
+    //     overflow: hidden;
+       
+    //      img {
+    //         position: absolute;
+    //         width: 9em;
+    //         height: 35em;
+            
+            
+    //         right:0;
+    //         bottom: 0;
+            
+    //      }
+    // }
+
+    .respect {
+        h2 {
+            font-family: inter;
+            text-transform: uppercase;
+            font-weight: 900;
+            color:var(--dark);
+            font-size: 2em;
+        }
+    }
+
+    .thoughts {
+        h3 {
+            font-size: 2em;
+        }
+    }
+
+    .end {
+        h2 {
+            color: var(--dark);
+            font-family: 'inter','sans-serif';
+            font-weight: 900;
+            font-size: 6.06em;
+        }
+    } 
+}
+

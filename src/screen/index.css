@@ -1,0 +1,252 @@
+.header {
+  background-image: url("../img/protest.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.row h2 {
+  margin-top: 2em;
+  color: #575656;
+  font-family: inter;
+}
+
+.row {
+  padding-top: 2em;
+  margin-bottom: 2em;
+}
+
+.row ul {
+  list-style-type: none;
+  font-family: 'inter';
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: grey;
+}
+
+.header .inner {
+  background-color: rgba(0, 0, 0, 0.924);
+  height: 100vh;
+}
+
+.header .inner span h2 {
+  color: var(--dark);
+  font-family: 'inter','sans-serif';
+  font-weight: 700;
+}
+
+.header .inner .hero-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .inner .hero-main .info {
+  word-wrap: break-word;
+  padding-top: 7em;
+  width: 55em;
+}
+
+.header .inner .hero-main .info p {
+  color: white;
+  font-size: 3em;
+  font-family: 'poppins','sans-serif';
+  font-weight: 500px;
+}
+
+.header .inner .hero-main .info h1 {
+  color: var(--light);
+  font-size: 7.5em;
+  font-family: 'inter', 'sans-serif';
+  font-weight: 900;
+}
+
+.header .inner .hero-main .hero-img {
+  overflow: hidden;
+}
+
+.header .inner .hero-main .hero-img img {
+  position: absolute;
+  width: 39em;
+  height: 35em;
+  right: 0;
+  bottom: 0;
+}
+
+.tribute {
+  overflow: hidden;
+}
+
+.tribute h3 {
+  color: var(--dark);
+  font-family: 'poppins','san-serif';
+  font-size: 3em;
+}
+
+.tribute .tears {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tribute img {
+  width: 32em;
+}
+
+.tribute .rant {
+  font-family: 'poppins';
+  padding: 2em 5em;
+  font-size: 2.2em;
+}
+
+.respect h2 {
+  font-family: inter;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--dark);
+}
+
+.respect .gallery {
+  padding-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.respect img {
+  width: 30em;
+  margin-right: 0em;
+}
+
+.respect .img {
+  width: 369px;
+  height: 371px;
+}
+
+.thoughts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.thoughts h3 {
+  color: black;
+  font-family: 'inter';
+  margin-bottom: 1em;
+}
+
+.thoughts p {
+  font-family: 'poppins';
+  font-size: 1.5em;
+  color: #1a1a1a;
+}
+
+.footer {
+  margin-top: 2em;
+}
+
+.footer .end h2 {
+  color: var(--dark);
+  font-family: 'inter','sans-serif';
+  font-weight: 900;
+}
+
+@media screen and (max-width: 670px) {
+  .tributee {
+    font-size: 2em !important;
+    font-family: inter;
+  }
+  .row h2 {
+    margin-top: 2em;
+    color: #575656;
+    font-family: inter;
+    font-size: 1em;
+  }
+  .tribute .tears {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tribute .rant {
+    font-size: 17px;
+    padding: 1em 1em;
+  }
+  .hero-img img {
+    display: none;
+  }
+  .hero-main h1 {
+    margin-top: 2em;
+    font-size: 3em !important;
+    margin-bottom: 0.5em;
+  }
+  .hero-main p {
+    font-size: 1.5em !important;
+  }
+  .tribute img {
+    width: 20em;
+  }
+  .end h2 {
+    font-size: 1.6em;
+  }
+  .gallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .gallery img {
+    width: 100%;
+    margin-top: 0.5em;
+  }
+  .thoughts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .thoughts h3 {
+    font-size: 1.5em;
+  }
+  .thoughts p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .respect h2 {
+    font-family: inter;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--dark);
+    font-size: 2em;
+  }
+  .thoughts h3 {
+    font-size: 2em;
+  }
+  .end h2 {
+    color: var(--dark);
+    font-family: 'inter','sans-serif';
+    font-weight: 900;
+    font-size: 6.06em;
+  }
+}
+/*# sourceMappingURL=index.css.map */
