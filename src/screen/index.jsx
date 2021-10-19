@@ -7,10 +7,6 @@ import vow from '../img/vow.png';
 import flag from '../img/flag.png'
 import dakolo from '../music/dakolo.mp3'
 const Homepage =()=>{
-    useEffect(()=> {
-        sound()
-        
-       },[])
    let sound =()=>{
     const audioEl = document.getElementsByClassName("audio-element")[0]
     audioEl.play()
@@ -21,10 +17,8 @@ const Homepage =()=>{
 
 
 
-           
-
-
-            <section className="header">
+        <div onClickCapture={()=>sound()} >
+        <section className="header" onClick={()=>sound()}>
                 {/* div to holder the obj */}
                 <div className="inner padding">
 
@@ -63,7 +57,12 @@ const Homepage =()=>{
 
                         <div className="rant">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti consequatur maiores fuga, quam sunt dignissimos sequi animi magni eos fugiat minima, at necessitatibus totam error sed molestiae quo labore rem!
+                            Greed, power, authority, hundreds have paid the price 
+                            We are breathing yet no life in us
+                            Shall we continue and die in serenity, as we think our self low without clout, such stupidity!!! 
+                            We are black remember , Fierce ,not a slave to fear, ruthless some call us, it's our identity, so are we going to continue that race to freedom, or are we going to smile at the lullaby 
+                            #yes to freedom #
+                            #no more lullaby #
                             </p>
                         </div>
 
@@ -164,7 +163,11 @@ const Homepage =()=>{
             <audio className="audio-element" src={dakolo} >
          
          </audio>
-         <button onClick={()=>sound()}>play</button>
+        </div>
+
+
+          
+        
 
         </>
     )
