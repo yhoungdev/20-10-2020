@@ -22,7 +22,7 @@ const Homepage =()=>{
                 {/* div to holder the obj */}
                 <div className="inner padding">
 
-                    <span><h2>#ENDPOLICE BRUTALITY</h2></span>
+                    <span><h2>#ENDPOLICE BRUTALITY</h2>  <span></span> </span>
 
                     {/* main header */}
                     <div className="hero-main">

@@ -16,6 +16,23 @@ body {
   padding: 3em 7em;
 }
 
+.hide {
+  animation:  4s anime;
+}
+
+
+@keyframes anime {
+
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: rgba(12, 12, 12, 0.781);
+  } 
+  100% {
+    background-color: black;
+  }
+}
 @media screen and (max-width:670px) {
    .padding {
      padding: 1em 2em;
