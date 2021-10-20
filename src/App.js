@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from 'react';
+import React,{useState, useEffecrt} from 'react';
 import Homepage from './screen';
 
 import './App.css';
@@ -8,11 +8,13 @@ import Loader from './load/loader';
 function App() {
   const [hide,setHide]=useState('none')
   const [show,setShow]=useState('block')
-  useEffect(() => {
-    setShow('none')
-    setHide('block')
-  }, [])
-
+ 
+  setTimeout(()=> {
+      setShow('none')
+      setHide('block')
+      //set states 
+      
+  },3000)
   
   return (
     <div className="App">
