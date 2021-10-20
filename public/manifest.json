@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "20th-October-2020",
+  "name": "Dedicated to Endsars victims",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "sars.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#CD2525",
   "background_color": "#ffffff"
 }

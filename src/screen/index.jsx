@@ -56,6 +56,7 @@ const Homepage =()=>{
                         </div>
 
                         <div className="rant">
+                        
                             <p>
                             Greed, power, authority, hundreds have paid the price 
                             We are breathing yet no life in us

@@ -109,7 +109,7 @@
 .tribute .rant {
   font-family: 'poppins';
   padding: 2em 5em;
-  font-size: 2.2em;
+  font-size: 2em;
 }
 
 .respect h2 {
@@ -169,7 +169,7 @@
   font-weight: 900;
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 1000px) {
   .tributee {
     font-size: 2em !important;
     font-family: inter;
